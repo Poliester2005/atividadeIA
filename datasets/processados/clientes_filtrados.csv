@@ -1,0 +1,494 @@
+id,nome,idade,altura_cm,sexo,genero_musical_favorito,cidade,profissao,data_de_nascimento,score_bom_pagador,salario,peso
+5,Dra. Brenda Monteiro,32.0,158.0,Masculino,Eletrônica,Rio de Janeiro,Designer,14/03/1986,E,11705,52
+7,Dra. Stephany da Rocha,54.0,157.0,Masculino,Eletrônica,Rio de Janeiro,Professor,27/04/2000,C,7934,92
+10,Juliana Rocha,40.0,181.0,Masculino,Pop,Belo Horizonte,Designer,15/08/1988,C,2608,53
+11,Rodrigo Teixeira,67.0,182.0,Outro,Hip-hop,Rio de Janeiro,Designer,22/04/1998,D,12807,112
+12,Elisa Vieira,62.0,159.0,Outro,Clássica,Porto Alegre,Designer,26/09/1970,E,9687,70
+17,Isabelly Novaes,62.0,181.0,Masculino,Jazz,Porto Alegre,Médico,02/05/1963,D,8568,98
+18,Felipe Cavalcanti,42.0,181.0,Feminino,Clássica,Porto Alegre,Programador,23/12/1979,D,4585,81
+21,Samuel Pereira,46.0,184.0,Masculino,Clássica,Belo Horizonte,Programador,01/02/1955,D,9226,97
+23,Vicente Cunha,56.0,169.0,Masculino,Hip-hop,São Paulo,Professor,22/03/1988,E,4168,57
+25,Natália Fernandes,26.0,188.0,Masculino,Hip-hop,Curitiba,Engenheiro,01/07/1992,D,6395,93
+30,Lorena Silva,41.0,181.0,Feminino,Rock,Porto Alegre,Professor,11/01/1971,C,11009,110
+31,Maria Sophia Melo,42.0,173.0,Outro,Hip-hop,Porto Alegre,Engenheiro,16/08/1975,F,7195,55
+32,Melissa das Neves,24.0,162.0,Outro,Rock,Belo Horizonte,Engenheiro,14/10/1964,C,8696,100
+33,Dra. Maria Alice Fogaça,25.0,153.0,Feminino,Hip-hop,Porto Alegre,Médico,05/03/1999,E,8045,96
+35,Marcos Vinicius Barros,26.0,188.0,Outro,Hip-hop,São Paulo,Programador,20/06/1996,E,12593,55
+37,Igor da Conceição,69.0,153.0,Masculino,Jazz,São Paulo,Médico,18/12/1956,D,12695,114
+38,Vicente Gonçalves,57.0,191.0,Feminino,Hip-hop,Porto Alegre,Engenheiro,04/04/2002,C,5405,98
+39,Calebe Pereira,37.0,161.0,Outro,Jazz,Belo Horizonte,Designer,20/04/1990,E,12192,114
+40,Thomas Rezende,40.0,198.0,Masculino,Rock,São Paulo,Programador,10/11/1964,E,7871,99
+41,Isabelly Cavalcanti,68.0,192.0,Masculino,Eletrônica,Belo Horizonte,Programador,17/10/1988,F,14897,76
+43,Breno Azevedo,59.0,151.0,Outro,Clássica,Belo Horizonte,Médico,09/03/1971,E,6514,112
+44,Renan Cardoso,67.0,173.0,Outro,Clássica,São Paulo,Advogado,02/10/2001,D,8211,70
+45,Emanuella Moura,42.0,157.0,Feminino,Hip-hop,São Paulo,Engenheiro,09/11/1999,D,12793,76
+46,Sra. Brenda Moraes,45.0,180.0,Outro,Eletrônica,Porto Alegre,Professor,23/12/1956,C,8184,67
+47,Dr. Pietro Pereira,52.0,191.0,Feminino,Hip-hop,São Paulo,Designer,27/10/1970,C,2327,105
+49,Helena Martins,23.0,199.0,Masculino,Rock,Belo Horizonte,Professor,08/11/1978,E,9935,113
+50,Dra. Ana Vitória Fogaça,36.0,179.0,Feminino,Pop,Belo Horizonte,Programador,13/03/1964,C,2764,85
+51,Lorenzo Vieira,41.0,155.0,Outro,Jazz,Belo Horizonte,Médico,29/05/1969,C,3293,73
+55,Sra. Joana da Costa,37.0,178.0,Feminino,Jazz,Belo Horizonte,Professor,20/04/1987,E,7432,102
+59,Gustavo Henrique da Cunha,27.0,187.0,Feminino,Eletrônica,Belo Horizonte,Médico,08/08/1998,F,3031,51
+61,Ana Vitória Pinto,23.0,185.0,Masculino,Pop,Rio de Janeiro,Advogado,24/02/1983,C,13412,64
+62,Srta. Sabrina Pereira,42.0,173.0,Outro,Clássica,Rio de Janeiro,Advogado,06/12/1979,D,7430,86
+65,Davi Peixoto,29.0,157.0,Outro,Rock,Porto Alegre,Engenheiro,22/03/1985,D,6122,74
+67,Levi Silva,59.0,181.0,Outro,Clássica,Curitiba,Professor,08/09/1959,F,3096,94
+68,Srta. Helena Caldeira,53.0,181.0,Feminino,Hip-hop,São Paulo,Engenheiro,21/09/1997,E,11672,80
+69,Benjamin da Conceição,41.0,161.0,Feminino,Pop,Rio de Janeiro,Designer,31/01/1996,C,11026,90
+70,Maitê Mendes,54.0,165.0,Masculino,Pop,Curitiba,Médico,10/07/1961,C,4950,94
+78,Heloísa Ferreira,47.0,169.0,Masculino,Hip-hop,São Paulo,Médico,05/01/1993,C,7266,62
+79,Emilly Melo,33.0,159.0,Outro,Pop,Belo Horizonte,Advogado,08/09/1970,C,3548,112
+80,Milena Porto,57.0,166.0,Feminino,Pop,Rio de Janeiro,Engenheiro,21/09/1988,D,3911,110
+83,Esther Alves,48.0,174.0,Feminino,Clássica,Belo Horizonte,Advogado,28/10/2003,C,5134,80
+84,Sra. Caroline Araújo,45.0,160.0,Masculino,Pop,Belo Horizonte,Médico,14/04/1964,E,4759,99
+85,Isadora Souza,42.0,198.0,Feminino,Pop,São Paulo,Engenheiro,16/07/1973,D,12546,53
+88,Dr. João Vitor Ferreira,63.0,181.0,Feminino,Clássica,Curitiba,Professor,30/01/1959,D,3674,57
+89,Emanuelly Araújo,48.0,198.0,Masculino,Pop,Porto Alegre,Programador,10/06/1976,C,5213,86
+91,Nathan Ribeiro,39.0,154.0,Feminino,Jazz,Rio de Janeiro,Programador,11/09/1973,F,4752,65
+93,Vicente Ribeiro,20.0,177.0,Masculino,Rock,São Paulo,Médico,22/09/1978,C,7337,93
+98,Maysa Sales,41.0,173.0,Feminino,Hip-hop,Belo Horizonte,Médico,06/01/1979,E,3838,98
+101,Clarice Moura,44.0,197.0,Masculino,Pop,Porto Alegre,Médico,15/02/1960,C,3751,72
+104,Vinicius Castro,37.0,192.0,Masculino,Hip-hop,Belo Horizonte,Engenheiro,27/04/1960,D,2257,114
+105,Benício Araújo,40.0,172.0,Masculino,Jazz,Belo Horizonte,Programador,14/02/1968,C,11316,92
+108,Evelyn das Neves,27.0,184.0,Outro,Hip-hop,São Paulo,Designer,17/02/1977,C,4630,57
+110,Luigi Moraes,43.0,187.0,Feminino,Rock,Belo Horizonte,Médico,15/11/1961,C,10621,117
+118,Breno Santos,38.0,192.0,Feminino,Jazz,São Paulo,Médico,27/02/1979,C,14603,82
+120,Pedro Henrique da Mota,42.0,183.0,Feminino,Clássica,Rio de Janeiro,Designer,05/11/1974,D,9532,99
+121,Alexandre Moura,68.0,162.0,Masculino,Pop,Belo Horizonte,Advogado,18/04/1970,D,14495,68
+122,Dr. Breno Fogaça,22.0,174.0,Feminino,Eletrônica,Belo Horizonte,Programador,02/03/1966,D,4765,50
+124,Dra. Emilly da Cunha,42.0,153.0,Feminino,Hip-hop,Curitiba,Programador,06/05/2005,E,6437,60
+125,Ana Júlia da Costa,29.0,179.0,Outro,Hip-hop,Belo Horizonte,Professor,11/05/1996,E,4731,84
+129,Vitor Gabriel Cardoso,63.0,192.0,Feminino,Jazz,Curitiba,Médico,02/06/2002,D,11460,79
+132,Matheus da Paz,55.0,183.0,Outro,Rock,São Paulo,Designer,04/09/1998,D,5902,64
+133,Davi Lucca Rocha,60.0,196.0,Masculino,Hip-hop,Rio de Janeiro,Professor,25/06/1981,D,8460,75
+134,Maria Vitória Martins,63.0,174.0,Outro,Pop,São Paulo,Engenheiro,19/07/1982,C,11999,91
+135,Lívia Viana,68.0,181.0,Outro,Clássica,Curitiba,Engenheiro,16/09/1968,C,9508,68
+138,Ana Julia Cardoso,35.0,186.0,Feminino,Rock,São Paulo,Programador,01/08/1990,D,3967,80
+139,Emanuella da Mota,37.0,176.0,Masculino,Eletrônica,São Paulo,Advogado,22/04/1967,E,8435,99
+140,Breno Campos,24.0,174.0,Outro,Hip-hop,São Paulo,Programador,16/12/1995,D,8584,119
+141,Stephany Silveira,42.0,187.0,Masculino,Clássica,São Paulo,Professor,22/07/1959,D,9979,108
+142,Sra. Laís Nunes,42.0,181.0,Feminino,Clássica,São Paulo,Designer,07/06/2005,E,10506,86
+144,Alana Jesus,36.0,179.0,Feminino,Pop,Porto Alegre,Designer,08/11/1999,D,13966,61
+145,Marina Moreira,31.0,186.0,Masculino,Jazz,São Paulo,Engenheiro,15/12/1959,C,9342,84
+149,Fernanda da Cruz,42.0,178.0,Masculino,Clássica,Curitiba,Advogado,10/11/1994,E,10794,84
+150,Luigi Gomes,37.0,181.0,Feminino,Clássica,Porto Alegre,Designer,08/07/1959,D,8007,61
+152,Giovanna Mendes,50.0,188.0,Outro,Pop,Curitiba,Médico,22/10/2002,D,7768,66
+153,Rafael da Cruz,21.0,155.0,Feminino,Pop,São Paulo,Médico,04/08/1985,C,2897,99
+156,Sophie Carvalho,42.0,158.0,Masculino,Clássica,Belo Horizonte,Professor,09/04/1963,F,6108,81
+158,Dr. Joaquim Cunha,68.0,197.0,Masculino,Hip-hop,Rio de Janeiro,Professor,27/11/1988,E,9681,98
+160,Ana Clara Souza,61.0,150.0,Feminino,Pop,Curitiba,Programador,12/04/1966,C,3502,60
+161,Gustavo Henrique Costa,21.0,170.0,Feminino,Pop,Curitiba,Programador,04/08/1975,D,12217,115
+162,Enrico Martins,48.0,190.0,Outro,Pop,Curitiba,Designer,22/11/1966,E,12346,108
+163,Luana Azevedo,69.0,157.0,Feminino,Eletrônica,Curitiba,Professor,26/12/1987,C,3322,80
+164,Arthur da Mata,55.0,193.0,Masculino,Hip-hop,Curitiba,Programador,29/10/1998,D,10592,70
+167,Dra. Eduarda Castro,30.0,193.0,Feminino,Jazz,Curitiba,Médico,09/05/1988,D,2369,76
+169,Juliana Fernandes,49.0,171.0,Outro,Clássica,Belo Horizonte,Engenheiro,09/11/2002,F,10838,53
+170,Dra. Ana Vieira,52.0,187.0,Feminino,Clássica,Rio de Janeiro,Engenheiro,08/11/1960,F,10373,99
+173,Sra. Beatriz Azevedo,28.0,184.0,Masculino,Eletrônica,São Paulo,Engenheiro,22/01/1980,D,6636,110
+174,Kevin Lopes,50.0,168.0,Masculino,Pop,Rio de Janeiro,Programador,14/06/1966,E,13532,77
+176,Julia Lima,62.0,150.0,Masculino,Eletrônica,Curitiba,Engenheiro,21/07/1966,E,7500,95
+177,Ana Vitória Ramos,35.0,181.0,Feminino,Pop,Rio de Janeiro,Engenheiro,05/12/1970,D,10096,50
+178,Catarina Peixoto,56.0,196.0,Feminino,Pop,São Paulo,Programador,19/10/2001,D,6594,62
+179,Vicente Fernandes,32.0,199.0,Outro,Eletrônica,Belo Horizonte,Advogado,23/01/1967,D,2466,50
+180,Marina Santos,68.0,162.0,Outro,Clássica,Belo Horizonte,Advogado,01/02/1989,E,13711,111
+187,Maitê da Conceição,27.0,181.0,Outro,Hip-hop,Porto Alegre,Advogado,23/11/1989,D,13649,105
+191,Sr. Felipe Almeida,43.0,199.0,Feminino,Jazz,Porto Alegre,Advogado,25/01/1983,C,5015,67
+193,Maria Clara Farias,60.0,169.0,Outro,Hip-hop,Porto Alegre,Médico,20/02/1979,F,8207,105
+199,Isabelly da Mata,41.0,152.0,Feminino,Jazz,Rio de Janeiro,Médico,21/03/1961,C,10720,65
+201,Kaique Cavalcanti,54.0,167.0,Outro,Jazz,Curitiba,Médico,28/09/1978,C,8846,110
+202,Dr. Marcos Vinicius Almeida,44.0,164.0,Outro,Jazz,São Paulo,Advogado,18/02/1995,E,2432,53
+203,Valentina Moraes,23.0,181.0,Outro,Eletrônica,Rio de Janeiro,Professor,18/03/1970,E,14405,100
+204,Yago Campos,33.0,180.0,Feminino,Eletrônica,Rio de Janeiro,Designer,03/07/1995,D,6372,98
+205,Ana Clara Carvalho,67.0,174.0,Feminino,Jazz,São Paulo,Médico,07/03/1980,D,7537,65
+206,Carolina Souza,18.0,171.0,Outro,Rock,Curitiba,Professor,05/10/1988,E,12387,118
+207,Srta. Mirella Rezende,19.0,159.0,Outro,Clássica,Porto Alegre,Professor,11/04/1993,F,3810,117
+210,Daniela Peixoto,27.0,168.0,Feminino,Jazz,Curitiba,Designer,12/09/1961,C,5521,93
+211,Lucas Gabriel Azevedo,22.0,161.0,Outro,Clássica,São Paulo,Engenheiro,18/06/1961,D,14046,94
+212,Daniel Vieira,31.0,156.0,Masculino,Hip-hop,Belo Horizonte,Médico,30/11/1955,D,14264,87
+214,Thomas Oliveira,45.0,164.0,Masculino,Eletrônica,São Paulo,Designer,23/05/1966,D,5640,98
+216,Noah Silva,45.0,180.0,Outro,Hip-hop,Rio de Janeiro,Designer,27/11/1963,D,10429,56
+219,Pietra Porto,26.0,160.0,Feminino,Pop,Porto Alegre,Professor,17/06/1981,E,4211,116
+223,Gabrielly das Neves,52.0,175.0,Masculino,Eletrônica,Belo Horizonte,Engenheiro,18/02/2003,C,14781,84
+225,Nicolas Duarte,52.0,188.0,Outro,Hip-hop,Porto Alegre,Médico,06/02/1960,D,4247,81
+227,Gustavo Viana,31.0,168.0,Feminino,Jazz,Porto Alegre,Programador,20/12/1994,D,3973,115
+228,Srta. Alícia da Costa,42.0,199.0,Masculino,Eletrônica,Porto Alegre,Engenheiro,29/01/1979,E,5352,59
+232,Fernando da Luz,33.0,177.0,Masculino,Eletrônica,Porto Alegre,Programador,06/02/1989,E,10993,88
+233,Erick Moura,32.0,187.0,Masculino,Eletrônica,Porto Alegre,Médico,18/04/1972,C,2335,56
+234,João Pedro Cavalcanti,42.0,156.0,Feminino,Hip-hop,Porto Alegre,Designer,20/05/1957,C,8015,50
+235,Isadora Viana,62.0,178.0,Feminino,Jazz,Curitiba,Programador,05/07/1982,F,8720,65
+236,Bianca Alves,38.0,185.0,Feminino,Eletrônica,Curitiba,Professor,20/09/1984,D,4141,67
+240,Isabella Freitas,45.0,164.0,Masculino,Eletrônica,São Paulo,Programador,29/11/1958,D,5699,78
+241,João Gabriel Caldeira,50.0,187.0,Feminino,Rock,São Paulo,Médico,28/12/1953,E,11045,89
+243,Enzo Vieira,44.0,185.0,Feminino,Hip-hop,Rio de Janeiro,Professor,08/07/1964,C,11678,63
+245,Esther Silveira,53.0,194.0,Masculino,Hip-hop,São Paulo,Advogado,20/11/1953,F,9760,106
+247,Daniel Ramos,21.0,157.0,Outro,Pop,Porto Alegre,Advogado,16/08/1966,D,3751,71
+251,Guilherme Mendes,68.0,152.0,Outro,Rock,São Paulo,Engenheiro,14/03/1992,E,6358,62
+258,Joana Correia,42.0,182.0,Feminino,Jazz,Porto Alegre,Advogado,27/05/1984,C,10480,98
+259,Srta. Letícia Nogueira,22.0,196.0,Feminino,Hip-hop,Porto Alegre,Engenheiro,10/12/1961,F,2741,51
+260,Levi Rezende,39.0,167.0,Feminino,Clássica,Porto Alegre,Designer,13/06/1994,E,13212,98
+267,Eduardo Monteiro,42.0,197.0,Feminino,Eletrônica,Porto Alegre,Designer,25/10/1967,D,3037,78
+269,Alícia da Conceição,24.0,181.0,Outro,Rock,Curitiba,Advogado,23/03/1996,F,9048,113
+271,Ryan Vieira,43.0,176.0,Masculino,Eletrônica,Curitiba,Advogado,14/07/1971,E,3597,81
+272,Clara Jesus,42.0,162.0,Outro,Clássica,Porto Alegre,Médico,12/03/1978,D,11465,70
+274,Enrico Oliveira,42.0,156.0,Masculino,Clássica,Curitiba,Professor,18/08/1998,D,2012,52
+275,Emilly Ferreira,18.0,167.0,Outro,Rock,Belo Horizonte,Designer,12/08/2004,E,12253,63
+278,Mirella da Rocha,36.0,186.0,Feminino,Jazz,Belo Horizonte,Advogado,12/10/1960,C,4760,61
+284,Dra. Caroline Ribeiro,27.0,167.0,Feminino,Pop,Rio de Janeiro,Engenheiro,20/07/1998,C,6233,60
+289,Dr. Luiz Henrique das Neves,35.0,186.0,Outro,Eletrônica,Belo Horizonte,Designer,15/10/1986,E,4856,75
+290,Danilo Barros,22.0,168.0,Feminino,Pop,Curitiba,Engenheiro,06/05/1996,E,7709,95
+291,Sra. Gabrielly Martins,55.0,151.0,Feminino,Pop,Belo Horizonte,Programador,19/04/1985,C,5465,52
+292,Leandro da Mota,56.0,181.0,Masculino,Eletrônica,Porto Alegre,Designer,01/12/1993,E,9660,91
+295,Isis Azevedo,63.0,178.0,Feminino,Rock,Belo Horizonte,Professor,27/07/1997,E,8390,52
+296,Thomas Barros,51.0,199.0,Feminino,Eletrônica,Curitiba,Professor,24/09/1956,C,13525,56
+299,Clarice Melo,69.0,198.0,Masculino,Hip-hop,Rio de Janeiro,Advogado,05/04/1978,C,8761,103
+300,Letícia Porto,42.0,158.0,Outro,Eletrônica,Belo Horizonte,Engenheiro,05/10/1986,E,12953,99
+301,Dra. Evelyn Santos,55.0,161.0,Feminino,Rock,Curitiba,Advogado,04/10/1986,C,5495,93
+302,Dr. Noah Freitas,52.0,152.0,Outro,Hip-hop,Porto Alegre,Designer,01/12/1984,E,11095,58
+305,Camila Pires,69.0,194.0,Masculino,Eletrônica,Belo Horizonte,Professor,29/06/1968,F,13587,74
+307,Letícia Sales,42.0,160.0,Masculino,Jazz,Porto Alegre,Médico,02/09/1966,E,8102,104
+309,Daniel Alves,18.0,192.0,Outro,Jazz,Rio de Janeiro,Designer,04/11/2005,C,10918,62
+311,Bruno das Neves,66.0,184.0,Feminino,Clássica,São Paulo,Médico,03/08/1955,C,12652,76
+313,Srta. Stephany da Costa,67.0,169.0,Masculino,Clássica,Porto Alegre,Engenheiro,29/07/1975,C,14250,50
+314,Olivia Mendes,59.0,179.0,Outro,Eletrônica,Curitiba,Professor,10/11/1995,E,10767,82
+317,Eduarda da Costa,61.0,192.0,Outro,Eletrônica,São Paulo,Engenheiro,10/03/1956,D,6491,97
+320,Laís Pinto,52.0,192.0,Masculino,Eletrônica,Curitiba,Advogado,20/07/1974,D,7646,68
+323,Caio Silva,59.0,176.0,Masculino,Clássica,Curitiba,Advogado,13/08/1954,E,6740,107
+325,Sra. Juliana Costela,22.0,181.0,Outro,Rock,São Paulo,Médico,20/12/1988,D,13812,111
+326,Camila Vieira,42.0,178.0,Masculino,Hip-hop,Curitiba,Engenheiro,05/11/1971,F,2070,89
+328,Rodrigo Araújo,61.0,163.0,Feminino,Jazz,Curitiba,Engenheiro,30/04/1964,F,12912,50
+329,Srta. Catarina Melo,37.0,169.0,Feminino,Rock,Rio de Janeiro,Designer,15/05/1966,C,5795,71
+330,Maria Sophia Barbosa,69.0,185.0,Feminino,Rock,Belo Horizonte,Médico,31/05/1987,E,13153,54
+334,Larissa Rocha,51.0,158.0,Outro,Clássica,Porto Alegre,Professor,28/09/1984,C,6064,109
+337,Nathan da Luz,52.0,181.0,Outro,Hip-hop,Rio de Janeiro,Designer,21/02/1988,E,9652,100
+338,Srta. Maria Alice Rocha,32.0,158.0,Masculino,Clássica,Rio de Janeiro,Designer,24/04/1989,D,7678,85
+339,Dr. Juan Mendes,22.0,177.0,Outro,Rock,Curitiba,Médico,11/10/1979,D,13791,75
+340,Pedro Ferreira,33.0,181.0,Masculino,Clássica,Belo Horizonte,Designer,04/04/2002,E,5389,99
+341,Sr. Leonardo Rodrigues,42.0,186.0,Masculino,Eletrônica,São Paulo,Advogado,30/11/1988,E,10137,104
+342,Enrico Fernandes,29.0,181.0,Outro,Pop,Rio de Janeiro,Engenheiro,20/11/1990,D,7634,100
+344,Ana Clara Costela,26.0,189.0,Feminino,Jazz,Belo Horizonte,Programador,04/11/1965,C,3830,119
+348,Marcela Pires,22.0,169.0,Feminino,Pop,São Paulo,Médico,21/11/1990,E,8549,96
+349,Heloísa da Rosa,37.0,152.0,Feminino,Hip-hop,São Paulo,Programador,26/01/1972,C,7426,60
+351,Gabrielly Pires,63.0,154.0,Outro,Pop,Belo Horizonte,Programador,17/08/1956,E,12902,83
+353,Mariane Caldeira,22.0,161.0,Outro,Rock,Rio de Janeiro,Designer,21/03/2006,D,10438,95
+357,Marcela Peixoto,59.0,151.0,Outro,Eletrônica,São Paulo,Professor,26/05/1976,C,9035,115
+359,Henrique Silva,39.0,171.0,Outro,Clássica,São Paulo,Médico,04/07/1979,D,12598,80
+360,Larissa Carvalho,44.0,192.0,Feminino,Clássica,Curitiba,Engenheiro,13/04/2004,D,12893,75
+361,Raquel Nunes,19.0,161.0,Masculino,Clássica,Rio de Janeiro,Professor,23/01/1956,C,3759,107
+363,Letícia Lima,55.0,176.0,Masculino,Pop,Rio de Janeiro,Professor,27/10/1990,C,5504,65
+364,Srta. Pietra da Rocha,68.0,196.0,Masculino,Eletrônica,Porto Alegre,Professor,16/08/1996,C,14574,101
+365,Levi Porto,25.0,187.0,Outro,Jazz,Rio de Janeiro,Advogado,06/11/2004,C,3790,115
+368,Isabel Carvalho,57.0,171.0,Feminino,Hip-hop,Porto Alegre,Engenheiro,21/06/1994,F,3455,76
+369,Emanuella Almeida,25.0,182.0,Masculino,Pop,Belo Horizonte,Programador,23/12/1967,D,5946,57
+371,Ana Lívia Mendes,42.0,164.0,Feminino,Pop,Porto Alegre,Médico,27/08/1996,C,5050,91
+373,Emilly Lima,66.0,176.0,Outro,Eletrônica,Rio de Janeiro,Médico,04/08/1973,C,2340,84
+376,Davi Santos,42.0,181.0,Feminino,Pop,Belo Horizonte,Programador,14/06/1976,F,6152,100
+378,Emilly Costa,24.0,197.0,Masculino,Clássica,São Paulo,Engenheiro,12/09/1997,E,12343,75
+381,Nicolas Ferreira,60.0,193.0,Outro,Jazz,São Paulo,Professor,15/06/1959,E,4279,102
+382,Ana Laura da Rosa,62.0,181.0,Masculino,Jazz,Belo Horizonte,Programador,19/09/1964,D,12475,99
+384,Isadora Araújo,59.0,160.0,Outro,Eletrônica,Porto Alegre,Designer,27/12/1973,C,2740,113
+386,Sra. Ana Sophia Melo,61.0,153.0,Feminino,Pop,Rio de Janeiro,Professor,08/08/2004,E,3393,113
+390,Lorenzo da Cruz,31.0,169.0,Masculino,Eletrônica,São Paulo,Advogado,16/08/1966,D,12590,117
+394,Dr. Danilo Barros,46.0,178.0,Masculino,Pop,São Paulo,Advogado,27/04/2000,E,10649,102
+396,Dr. Lucas Rodrigues,42.0,177.0,Feminino,Jazz,Porto Alegre,Designer,28/03/1980,C,4797,65
+399,Diego Castro,60.0,191.0,Outro,Pop,São Paulo,Advogado,02/07/1982,D,12281,96
+403,Dr. Erick da Conceição,42.0,166.0,Outro,Jazz,São Paulo,Advogado,29/04/1956,E,4437,111
+405,Leandro da Paz,24.0,181.0,Feminino,Jazz,São Paulo,Designer,03/12/1958,E,12407,90
+406,Danilo Viana,21.0,185.0,Outro,Rock,Curitiba,Advogado,25/08/1994,C,2896,59
+407,Isabel Mendes,42.0,156.0,Outro,Clássica,Curitiba,Engenheiro,27/06/2000,C,9218,113
+408,Sra. Fernanda Azevedo,43.0,176.0,Outro,Clássica,Porto Alegre,Médico,17/04/1973,E,9403,93
+409,Luiz Miguel Martins,60.0,174.0,Masculino,Eletrônica,São Paulo,Professor,04/01/1974,D,7686,62
+412,Davi Lucca Cunha,46.0,157.0,Feminino,Rock,Curitiba,Programador,07/11/2000,C,3364,85
+414,Francisco Cavalcanti,49.0,181.0,Feminino,Hip-hop,Rio de Janeiro,Médico,26/08/1994,C,12185,82
+415,Sra. Elisa Lopes,51.0,151.0,Outro,Hip-hop,Belo Horizonte,Médico,16/09/2003,D,7236,61
+416,Erick Fogaça,37.0,179.0,Feminino,Pop,Belo Horizonte,Professor,01/06/2004,E,10369,75
+418,Daniela Barbosa,55.0,175.0,Feminino,Hip-hop,Belo Horizonte,Designer,02/11/1958,C,10756,118
+419,Nicolas Aragão,29.0,181.0,Masculino,Clássica,Porto Alegre,Advogado,01/09/1974,F,14962,73
+420,Elisa Campos,34.0,187.0,Feminino,Jazz,Belo Horizonte,Professor,11/03/2002,D,10645,106
+423,Ian Melo,24.0,167.0,Masculino,Eletrônica,Curitiba,Professor,19/01/1984,E,10692,119
+424,Eduardo Novaes,55.0,150.0,Outro,Pop,Belo Horizonte,Professor,09/02/1963,E,10583,97
+425,Maria Fernanda Fernandes,32.0,165.0,Feminino,Pop,Porto Alegre,Designer,11/05/1954,E,10430,108
+428,Luiz Henrique Barros,28.0,174.0,Feminino,Clássica,Curitiba,Médico,10/12/1982,D,8024,50
+429,Sr. Bruno Melo,28.0,171.0,Masculino,Rock,Curitiba,Engenheiro,10/01/1996,C,8985,63
+430,Evelyn Fogaça,68.0,186.0,Outro,Hip-hop,Belo Horizonte,Designer,18/08/1995,F,2085,95
+431,Pietro da Rosa,57.0,181.0,Feminino,Hip-hop,Rio de Janeiro,Programador,26/04/1998,D,13904,84
+433,Dr. Davi Sales,27.0,159.0,Masculino,Eletrônica,São Paulo,Programador,20/08/2001,D,6422,81
+437,Ana Vitória Caldeira,52.0,174.0,Feminino,Pop,Porto Alegre,Advogado,15/10/1993,E,6933,104
+438,Dr. André Aragão,67.0,181.0,Masculino,Pop,Rio de Janeiro,Programador,30/04/2000,C,6090,87
+440,Sra. Sofia Silva,64.0,184.0,Feminino,Jazz,São Paulo,Médico,13/11/1966,E,4625,90
+441,Gustavo Lopes,44.0,151.0,Feminino,Pop,Rio de Janeiro,Engenheiro,20/01/1966,C,13951,104
+445,Joana da Mata,47.0,186.0,Feminino,Hip-hop,Porto Alegre,Advogado,29/12/1960,E,12324,84
+446,Dra. Ana Lívia Barbosa,57.0,167.0,Outro,Eletrônica,Curitiba,Designer,16/09/1991,E,2500,57
+448,Gustavo Gomes,51.0,182.0,Feminino,Rock,Curitiba,Médico,01/04/1955,E,6075,114
+449,Theo Pereira,68.0,154.0,Masculino,Hip-hop,Belo Horizonte,Professor,29/03/1985,E,14019,99
+451,Joana Rezende,42.0,160.0,Outro,Rock,Porto Alegre,Programador,03/08/1969,F,8732,115
+452,Srta. Daniela Gonçalves,42.0,153.0,Feminino,Hip-hop,Porto Alegre,Professor,26/12/1985,E,14970,87
+453,João Pedro Lopes,38.0,196.0,Feminino,Rock,Belo Horizonte,Designer,19/10/1996,E,9972,83
+456,Letícia Ferreira,37.0,152.0,Outro,Pop,São Paulo,Designer,29/09/1989,C,4385,90
+457,Valentina Lopes,42.0,167.0,Outro,Rock,Belo Horizonte,Advogado,23/09/1986,D,14880,97
+459,Srta. Rebeca Costela,19.0,187.0,Masculino,Eletrônica,Curitiba,Advogado,18/05/1983,D,2051,111
+461,Sarah Nascimento,21.0,154.0,Feminino,Hip-hop,Belo Horizonte,Médico,16/07/1954,C,8266,64
+464,Catarina Aragão,42.0,169.0,Feminino,Clássica,Rio de Janeiro,Engenheiro,17/02/1964,D,8558,97
+465,Lucas Azevedo,30.0,173.0,Feminino,Jazz,Belo Horizonte,Professor,13/12/1970,E,13689,95
+466,Olivia da Cunha,42.0,164.0,Outro,Clássica,Belo Horizonte,Professor,20/08/2000,D,2916,77
+468,Dra. Caroline da Cunha,51.0,196.0,Masculino,Eletrônica,Curitiba,Programador,27/03/1958,D,8751,86
+473,Srta. Letícia Monteiro,37.0,181.0,Feminino,Eletrônica,Belo Horizonte,Engenheiro,05/08/1955,D,12436,57
+475,Maria Luiza Azevedo,33.0,165.0,Feminino,Rock,Rio de Janeiro,Advogado,06/04/1956,C,9318,56
+476,Maria Fernanda Lima,40.0,184.0,Feminino,Jazz,Belo Horizonte,Advogado,07/02/1965,C,6865,64
+477,Brenda Ribeiro,19.0,181.0,Masculino,Rock,Curitiba,Advogado,22/10/1953,F,4491,101
+478,Maria Vitória Caldeira,21.0,177.0,Outro,Jazz,Curitiba,Programador,16/06/1981,C,11502,93
+480,Luiz Gustavo Pires,50.0,154.0,Feminino,Eletrônica,Porto Alegre,Designer,15/04/1969,C,7259,104
+481,Dra. Luna Peixoto,39.0,159.0,Masculino,Pop,Porto Alegre,Programador,09/10/1996,E,9325,106
+484,Theo Almeida,58.0,161.0,Masculino,Pop,Curitiba,Professor,02/11/1979,C,8177,61
+487,João Vitor Silveira,53.0,192.0,Feminino,Rock,Curitiba,Professor,25/09/1996,E,10944,51
+488,Emanuelly Barbosa,44.0,173.0,Feminino,Rock,Belo Horizonte,Designer,20/04/1969,D,12981,50
+490,Luiza Duarte,21.0,160.0,Outro,Rock,Porto Alegre,Engenheiro,14/06/1982,E,3192,107
+491,Dr. Cauê Cardoso,58.0,181.0,Outro,Clássica,Rio de Janeiro,Professor,02/11/1956,D,13896,105
+492,Kaique Melo,64.0,181.0,Feminino,Hip-hop,Porto Alegre,Professor,10/07/1986,D,10298,59
+494,Dr. Heitor Peixoto,46.0,173.0,Outro,Jazz,Belo Horizonte,Programador,18/07/1991,F,11818,63
+496,Isabelly Oliveira,46.0,191.0,Feminino,Rock,Belo Horizonte,Médico,25/04/1998,E,2904,76
+497,Lavínia Gomes,51.0,177.0,Feminino,Rock,São Paulo,Médico,07/05/1984,E,6252,101
+498,Diogo Cunha,68.0,153.0,Feminino,Hip-hop,São Paulo,Advogado,10/06/1985,D,6274,60
+499,Ana Carolina Alves,36.0,172.0,Feminino,Hip-hop,Curitiba,Professor,03/11/1999,E,14405,92
+501,João Pedro Silva,18.0,158.0,Outro,Jazz,São Paulo,Advogado,28/01/1958,D,7884,81
+504,Alexia Freitas,27.0,196.0,Masculino,Eletrônica,Curitiba,Médico,10/01/1979,F,5736,75
+507,Nina Sales,59.0,156.0,Outro,Jazz,São Paulo,Advogado,15/06/1989,C,10132,85
+511,Carolina Gonçalves,32.0,179.0,Masculino,Eletrônica,São Paulo,Programador,26/01/1983,C,3844,90
+512,Breno Duarte,42.0,166.0,Outro,Jazz,Porto Alegre,Designer,03/03/2003,D,9904,53
+513,Rafaela Azevedo,42.0,171.0,Feminino,Rock,Rio de Janeiro,Professor,12/08/1988,D,3562,85
+515,Dra. Ana Lívia Vieira,31.0,165.0,Outro,Rock,Belo Horizonte,Engenheiro,24/12/1988,D,9291,102
+518,Carolina Araújo,42.0,181.0,Masculino,Clássica,Rio de Janeiro,Médico,27/11/1981,E,14301,56
+519,Nina Cardoso,57.0,181.0,Outro,Hip-hop,Curitiba,Médico,30/01/2000,D,8103,67
+521,Vinicius Melo,36.0,184.0,Feminino,Eletrônica,Belo Horizonte,Professor,13/01/1957,E,14574,75
+526,Sra. Lara Costela,28.0,183.0,Outro,Eletrônica,Belo Horizonte,Médico,05/10/1970,D,12310,81
+527,Lucas Lima,38.0,154.0,Outro,Clássica,Belo Horizonte,Designer,16/06/2005,E,6308,119
+529,Sra. Ana Laura Novaes,42.0,184.0,Outro,Eletrônica,São Paulo,Programador,02/09/1992,E,3262,104
+530,Sra. Júlia Farias,43.0,178.0,Outro,Eletrônica,Rio de Janeiro,Professor,01/09/1993,E,3454,94
+533,Júlia Sales,23.0,185.0,Outro,Eletrônica,Porto Alegre,Professor,29/09/1958,D,9413,87
+534,Benício Sales,50.0,181.0,Outro,Jazz,São Paulo,Professor,16/06/1955,D,6636,88
+535,Maria Luiza Gonçalves,19.0,175.0,Masculino,Jazz,Rio de Janeiro,Designer,31/07/1964,E,2218,50
+537,Maria Alice da Paz,27.0,182.0,Masculino,Eletrônica,Curitiba,Designer,23/07/1962,D,3089,56
+538,Luiz Felipe da Cunha,63.0,153.0,Masculino,Hip-hop,Porto Alegre,Programador,16/01/1973,D,13359,69
+540,Pietra Ribeiro,53.0,179.0,Masculino,Clássica,São Paulo,Designer,20/08/2005,D,9798,76
+541,Pedro Henrique Cardoso,18.0,157.0,Masculino,Jazz,Porto Alegre,Programador,22/02/2005,E,10073,92
+542,Luiza Barbosa,68.0,157.0,Feminino,Rock,Belo Horizonte,Programador,08/09/1964,E,11520,79
+547,Maria Cecília Silva,63.0,198.0,Outro,Pop,São Paulo,Médico,22/10/1954,E,2049,110
+550,Pedro da Cruz,23.0,174.0,Outro,Clássica,Porto Alegre,Médico,10/07/1974,D,12194,69
+551,Sr. Lucas Pereira,43.0,183.0,Feminino,Hip-hop,Rio de Janeiro,Engenheiro,16/02/1961,D,9325,56
+552,Otávio Gonçalves,40.0,161.0,Outro,Rock,São Paulo,Advogado,29/01/2001,D,7503,64
+553,Pedro Miguel Silveira,58.0,152.0,Masculino,Pop,Belo Horizonte,Advogado,15/04/1995,E,4109,92
+554,Srta. Luna Duarte,62.0,167.0,Masculino,Pop,São Paulo,Programador,07/05/1982,D,5204,110
+557,Carlos Eduardo Carvalho,69.0,181.0,Feminino,Pop,Porto Alegre,Médico,17/08/1968,D,9664,107
+558,Ian Cardoso,38.0,154.0,Outro,Clássica,Porto Alegre,Engenheiro,29/03/1965,C,14724,55
+559,Leonardo Ferreira,22.0,170.0,Feminino,Hip-hop,Belo Horizonte,Advogado,31/12/1986,C,8619,79
+560,Vitor Gabriel da Cruz,42.0,154.0,Feminino,Eletrônica,Belo Horizonte,Advogado,25/01/1958,C,9506,108
+562,Rodrigo Castro,46.0,176.0,Masculino,Rock,Belo Horizonte,Programador,20/11/1977,C,6248,99
+563,Caroline Ramos,42.0,187.0,Outro,Clássica,São Paulo,Professor,03/10/1995,E,9905,55
+564,Rafaela Moraes,44.0,155.0,Masculino,Rock,Curitiba,Engenheiro,20/05/1969,C,11809,112
+567,Dr. Luiz Henrique Cardoso,42.0,163.0,Feminino,Pop,Belo Horizonte,Advogado,02/08/1969,E,6900,108
+570,Sra. Isabella Cardoso,28.0,177.0,Masculino,Jazz,São Paulo,Programador,26/11/1981,E,3985,82
+572,Joaquim Duarte,30.0,186.0,Masculino,Hip-hop,Curitiba,Programador,03/06/1997,D,2394,85
+576,Maria Luiza Cardoso,42.0,176.0,Masculino,Jazz,São Paulo,Advogado,23/04/1977,C,9840,76
+578,Samuel da Rocha,46.0,157.0,Feminino,Clássica,Porto Alegre,Programador,30/12/1987,E,7685,69
+580,Fernando Cunha,30.0,189.0,Masculino,Eletrônica,Rio de Janeiro,Médico,03/02/1994,E,10496,73
+581,Isabella Lima,48.0,157.0,Outro,Jazz,Curitiba,Engenheiro,17/08/2004,F,9096,118
+582,Otávio Novaes,43.0,150.0,Masculino,Pop,Belo Horizonte,Professor,22/11/1971,C,3961,78
+586,Nicolas Moraes,63.0,181.0,Outro,Clássica,Porto Alegre,Engenheiro,08/01/1994,C,7138,75
+587,Davi Costela,60.0,183.0,Outro,Jazz,Rio de Janeiro,Designer,22/03/1988,C,9648,103
+588,Theo Costa,50.0,158.0,Feminino,Jazz,Porto Alegre,Designer,24/06/1971,C,11560,93
+589,Ana Caldeira,23.0,151.0,Outro,Pop,Porto Alegre,Engenheiro,16/11/1966,C,4276,119
+590,Ana Sophia Rezende,18.0,171.0,Masculino,Jazz,Curitiba,Advogado,23/04/2005,E,5503,54
+592,Daniela da Mota,59.0,181.0,Feminino,Eletrônica,Rio de Janeiro,Designer,28/06/1982,D,2678,85
+598,Maria Clara Campos,19.0,171.0,Masculino,Eletrônica,Rio de Janeiro,Professor,02/06/1995,C,7346,75
+599,Sabrina Rodrigues,52.0,175.0,Masculino,Eletrônica,Belo Horizonte,Engenheiro,04/03/1972,D,13541,64
+600,Dr. Luiz Felipe Almeida,65.0,182.0,Masculino,Eletrônica,Porto Alegre,Engenheiro,02/06/1972,D,4619,119
+605,Matheus Duarte,46.0,187.0,Outro,Jazz,Rio de Janeiro,Designer,19/08/1984,C,8502,58
+609,Sophie Viana,68.0,153.0,Outro,Hip-hop,Rio de Janeiro,Programador,19/02/1991,C,14708,65
+611,Guilherme da Cunha,54.0,199.0,Feminino,Rock,São Paulo,Engenheiro,22/06/1966,D,5260,86
+616,Isabelly da Cunha,21.0,176.0,Outro,Pop,Belo Horizonte,Programador,19/04/1982,F,12117,119
+617,Srta. Ana Vitória Monteiro,66.0,181.0,Outro,Jazz,Curitiba,Designer,29/02/1956,C,10670,104
+620,Thiago Peixoto,36.0,191.0,Masculino,Hip-hop,Curitiba,Médico,06/04/1984,C,2871,63
+623,Isabelly Vieira,45.0,181.0,Feminino,Clássica,São Paulo,Advogado,07/01/1998,D,7513,68
+624,Raquel Novaes,21.0,154.0,Feminino,Pop,Curitiba,Advogado,29/10/1996,E,4347,80
+628,Pietro Teixeira,33.0,185.0,Outro,Rock,Curitiba,Professor,13/10/1971,E,5862,112
+629,Ana Laura Duarte,39.0,195.0,Outro,Eletrônica,Porto Alegre,Advogado,30/05/1974,D,12524,114
+630,Mariane Rezende,42.0,181.0,Masculino,Jazz,Belo Horizonte,Professor,02/03/1995,F,10457,72
+631,Thales Moraes,49.0,192.0,Outro,Rock,Porto Alegre,Engenheiro,12/02/1980,C,13649,56
+633,Sr. Pedro Castro,52.0,150.0,Outro,Jazz,São Paulo,Advogado,04/12/1977,C,12348,112
+638,Gabrielly Fogaça,39.0,154.0,Outro,Clássica,São Paulo,Médico,17/07/1986,D,12610,75
+639,Sr. Vitor Gabriel Gonçalves,53.0,196.0,Feminino,Rock,Rio de Janeiro,Professor,13/04/1995,E,13026,99
+642,Pedro Moura,51.0,173.0,Outro,Eletrônica,Porto Alegre,Médico,27/07/2005,F,11214,66
+643,Yago Lopes,18.0,154.0,Feminino,Eletrônica,São Paulo,Engenheiro,23/04/1959,E,14666,88
+648,Isabelly Ribeiro,32.0,189.0,Feminino,Hip-hop,Belo Horizonte,Advogado,21/12/1987,E,2730,77
+649,Melissa Moreira,60.0,187.0,Outro,Clássica,Porto Alegre,Advogado,22/08/1956,C,8530,55
+652,Cauê Moraes,27.0,184.0,Feminino,Pop,Rio de Janeiro,Engenheiro,04/09/1959,C,9480,79
+653,Eduarda da Rosa,67.0,159.0,Masculino,Pop,Curitiba,Designer,26/01/1962,D,8975,53
+654,Danilo Azevedo,66.0,184.0,Feminino,Eletrônica,Belo Horizonte,Programador,26/06/1980,D,6609,76
+655,Srta. Amanda da Cunha,22.0,177.0,Outro,Rock,Rio de Janeiro,Médico,31/10/1968,C,12169,84
+656,Ana Júlia Duarte,57.0,188.0,Outro,Pop,Belo Horizonte,Engenheiro,09/12/1961,C,8018,86
+658,Ana Carolina Cavalcanti,42.0,150.0,Outro,Clássica,Porto Alegre,Programador,04/04/1974,E,5162,79
+661,Vitor da Luz,45.0,192.0,Masculino,Clássica,Rio de Janeiro,Engenheiro,05/04/2002,E,7360,57
+662,Diego Gomes,64.0,190.0,Outro,Rock,Porto Alegre,Programador,26/12/1959,C,10332,105
+666,Enzo Gabriel Viana,29.0,187.0,Outro,Pop,Porto Alegre,Engenheiro,08/02/1957,D,5548,97
+667,Yuri Mendes,29.0,161.0,Feminino,Jazz,Belo Horizonte,Programador,23/01/1999,D,3699,94
+672,Sra. Maria Alice Teixeira,42.0,164.0,Feminino,Hip-hop,Rio de Janeiro,Médico,27/08/1987,E,9274,68
+674,Lorena Jesus,36.0,182.0,Outro,Clássica,São Paulo,Designer,12/11/1968,E,9219,88
+676,Danilo da Mota,60.0,154.0,Feminino,Pop,Rio de Janeiro,Engenheiro,23/11/1961,C,9906,85
+678,Pedro Henrique da Paz,42.0,181.0,Masculino,Rock,Porto Alegre,Designer,29/01/1994,D,5710,91
+682,Matheus Silva,53.0,188.0,Outro,Clássica,Belo Horizonte,Advogado,15/05/1984,C,5223,72
+684,Isis Melo,60.0,153.0,Masculino,Hip-hop,Belo Horizonte,Advogado,06/02/1965,C,3162,51
+687,Lívia Santos,42.0,180.0,Outro,Pop,Rio de Janeiro,Advogado,25/03/1972,D,2700,77
+689,Alícia Lima,46.0,182.0,Outro,Rock,São Paulo,Engenheiro,25/04/2006,E,11529,90
+691,Isabelly Dias,48.0,164.0,Outro,Eletrônica,Porto Alegre,Professor,14/12/1972,D,9219,95
+693,Natália Cunha,25.0,189.0,Masculino,Pop,Belo Horizonte,Programador,06/12/1958,C,10422,97
+694,Joaquim Ferreira,44.0,171.0,Outro,Jazz,Curitiba,Programador,17/12/1960,E,2187,105
+695,Isabelly Barros,57.0,178.0,Outro,Rock,São Paulo,Médico,07/02/1957,D,9601,102
+697,Emanuelly Nascimento,19.0,193.0,Outro,Rock,Belo Horizonte,Designer,11/06/1965,D,6629,113
+700,Srta. Luna Souza,68.0,167.0,Outro,Clássica,Rio de Janeiro,Programador,07/12/1986,C,2338,51
+702,Ryan Oliveira,36.0,162.0,Feminino,Hip-hop,Curitiba,Designer,14/12/1986,E,9276,96
+703,Luiz Fernando Castro,54.0,171.0,Outro,Rock,Porto Alegre,Professor,22/04/1984,E,7592,61
+704,Ana Lívia Fernandes,34.0,180.0,Feminino,Jazz,Rio de Janeiro,Médico,02/11/1963,C,3179,69
+710,Ana Júlia Melo,20.0,163.0,Feminino,Clássica,Belo Horizonte,Professor,09/04/1974,C,11092,52
+711,Lívia Gomes,42.0,181.0,Masculino,Rock,Porto Alegre,Advogado,20/02/2006,E,6187,92
+712,Dr. Bryan Barros,30.0,190.0,Feminino,Clássica,Porto Alegre,Médico,15/05/1982,E,11892,79
+715,Rafaela Pinto,30.0,181.0,Masculino,Jazz,Curitiba,Advogado,08/09/1971,F,5397,77
+717,Eduarda Porto,67.0,172.0,Feminino,Clássica,Rio de Janeiro,Designer,06/11/2002,E,10161,55
+722,Giovanna Vieira,64.0,198.0,Outro,Clássica,Belo Horizonte,Advogado,05/01/1984,F,9620,68
+725,Yuri Carvalho,42.0,182.0,Outro,Clássica,Porto Alegre,Programador,23/02/2002,C,9761,94
+731,Samuel Costela,33.0,156.0,Feminino,Rock,Rio de Janeiro,Programador,25/04/1980,F,9836,112
+732,Dra. Valentina Barbosa,31.0,195.0,Feminino,Jazz,Curitiba,Designer,19/08/1953,E,14092,95
+733,Ana Laura Castro,61.0,163.0,Outro,Eletrônica,Curitiba,Professor,28/11/1956,F,5470,113
+734,Valentina da Rosa,47.0,173.0,Feminino,Rock,Curitiba,Médico,25/08/2000,E,5795,81
+742,Eduarda Cunha,23.0,182.0,Masculino,Eletrônica,São Paulo,Professor,23/12/1970,E,7279,88
+743,Augusto Caldeira,42.0,168.0,Feminino,Eletrônica,Porto Alegre,Designer,15/09/1980,D,6082,91
+746,Luiz Henrique Duarte,32.0,165.0,Masculino,Clássica,Belo Horizonte,Professor,23/11/1999,C,2729,80
+747,Benjamin Jesus,63.0,192.0,Masculino,Eletrônica,Rio de Janeiro,Professor,05/09/1978,C,2464,59
+748,Caio Souza,55.0,188.0,Outro,Hip-hop,Porto Alegre,Médico,03/07/1988,D,4859,57
+750,Paulo Silveira,23.0,181.0,Outro,Eletrônica,Belo Horizonte,Programador,25/01/1955,E,2328,75
+751,Daniela Rodrigues,34.0,183.0,Masculino,Jazz,Belo Horizonte,Programador,16/03/1999,E,4813,62
+753,Sr. Davi Luiz da Luz,40.0,192.0,Feminino,Rock,São Paulo,Programador,06/12/1992,D,2769,83
+757,Raquel Moraes,68.0,153.0,Feminino,Hip-hop,Curitiba,Programador,15/02/1954,E,7786,113
+761,Dra. Isabel Pereira,55.0,180.0,Masculino,Pop,Rio de Janeiro,Programador,07/08/1981,D,14973,64
+762,Lorenzo Araújo,42.0,194.0,Feminino,Hip-hop,Porto Alegre,Designer,01/12/1954,E,11108,53
+764,Pietra da Mata,29.0,163.0,Outro,Rock,Belo Horizonte,Engenheiro,20/07/1981,D,13830,101
+765,Luigi Silva,60.0,188.0,Outro,Hip-hop,Belo Horizonte,Programador,04/10/1966,E,14812,58
+768,Isabella Lopes,39.0,181.0,Outro,Pop,São Paulo,Professor,10/12/1987,E,13235,71
+770,Sr. Pietro Correia,41.0,192.0,Feminino,Pop,Rio de Janeiro,Médico,30/05/1992,C,10053,108
+771,Dr. Nicolas Ferreira,34.0,179.0,Masculino,Clássica,São Paulo,Professor,10/10/2003,C,11429,80
+775,Theo Novaes,20.0,179.0,Feminino,Rock,Rio de Janeiro,Médico,12/06/1999,D,3736,79
+776,Cauã Sales,63.0,155.0,Feminino,Eletrônica,Belo Horizonte,Médico,03/06/1982,D,8184,104
+778,Giovanna Jesus,20.0,181.0,Outro,Clássica,São Paulo,Professor,24/08/1985,D,4011,114
+779,Srta. Mariana Silva,51.0,178.0,Feminino,Hip-hop,Rio de Janeiro,Professor,27/12/1976,E,14074,86
+787,Heitor Moura,69.0,176.0,Outro,Jazz,Porto Alegre,Designer,12/12/2002,E,3732,116
+792,Ana Beatriz da Rocha,35.0,163.0,Outro,Hip-hop,Curitiba,Engenheiro,18/10/2005,D,12755,115
+793,Nina Moreira,58.0,186.0,Feminino,Pop,São Paulo,Designer,23/07/1985,F,7120,72
+798,Caio Aragão,34.0,189.0,Outro,Rock,Rio de Janeiro,Designer,30/05/1958,C,6468,113
+799,Pedro Lucas Nunes,54.0,151.0,Outro,Jazz,Belo Horizonte,Professor,16/11/1964,C,3187,63
+801,Amanda Duarte,23.0,193.0,Masculino,Jazz,Rio de Janeiro,Designer,12/03/1967,C,2938,90
+804,Milena Caldeira,26.0,158.0,Feminino,Pop,Curitiba,Médico,24/07/1968,D,5911,93
+806,Felipe Silveira,60.0,174.0,Masculino,Hip-hop,Curitiba,Programador,17/07/1973,F,12847,95
+808,Lívia Costa,58.0,162.0,Outro,Clássica,Rio de Janeiro,Professor,16/12/1979,D,10271,118
+810,Camila Farias,20.0,192.0,Outro,Hip-hop,Belo Horizonte,Professor,17/06/1990,D,5934,118
+811,Pedro Lucas Teixeira,68.0,172.0,Masculino,Hip-hop,Belo Horizonte,Engenheiro,14/12/1959,C,8887,118
+814,Sr. Nathan Moreira,62.0,186.0,Feminino,Jazz,Curitiba,Médico,12/08/1989,D,11092,86
+816,Vitor Hugo Cavalcanti,37.0,181.0,Feminino,Rock,São Paulo,Engenheiro,10/06/1966,D,13685,71
+818,Sra. Ana Júlia Lima,26.0,180.0,Outro,Eletrônica,Belo Horizonte,Advogado,11/02/1979,D,5575,109
+819,Emanuel Viana,64.0,154.0,Feminino,Eletrônica,Curitiba,Advogado,15/01/2003,D,11946,108
+820,João Pedro Ribeiro,35.0,173.0,Outro,Eletrônica,Curitiba,Designer,26/11/1987,F,11049,79
+822,Samuel Lima,68.0,195.0,Feminino,Hip-hop,Rio de Janeiro,Advogado,08/08/2002,C,8549,85
+824,Valentina da Mata,61.0,155.0,Masculino,Clássica,São Paulo,Médico,15/04/2004,C,10101,58
+825,Clarice da Rosa,42.0,172.0,Feminino,Jazz,Curitiba,Advogado,10/10/2004,D,7744,114
+827,Dra. Maria Luiza Araújo,42.0,161.0,Masculino,Pop,São Paulo,Advogado,01/12/1984,C,12606,119
+829,Helena da Mata,42.0,153.0,Outro,Eletrônica,Curitiba,Programador,21/01/1986,E,13081,65
+832,Paulo Rezende,42.0,181.0,Outro,Clássica,Rio de Janeiro,Médico,24/01/1979,D,7148,60
+833,Dr. Alexandre Cunha,61.0,194.0,Feminino,Eletrônica,Belo Horizonte,Professor,14/03/1954,C,2676,51
+836,Dra. Daniela Silva,40.0,190.0,Outro,Eletrônica,Rio de Janeiro,Engenheiro,01/05/1990,E,9145,54
+838,Lorena Cardoso,18.0,188.0,Masculino,Rock,Rio de Janeiro,Advogado,18/02/1960,E,6251,96
+839,Arthur Peixoto,40.0,153.0,Feminino,Clássica,São Paulo,Programador,05/08/1954,C,8025,100
+840,Emilly Silva,27.0,163.0,Outro,Rock,Porto Alegre,Advogado,12/01/1959,C,13474,110
+847,Pedro Lucas da Costa,49.0,172.0,Masculino,Eletrônica,Rio de Janeiro,Médico,28/11/1989,C,3110,83
+848,Sra. Raquel Correia,43.0,182.0,Outro,Jazz,Rio de Janeiro,Engenheiro,28/10/1957,E,3666,70
+849,Breno Dias,33.0,181.0,Outro,Rock,São Paulo,Designer,21/06/1990,C,14692,83
+850,Benício Teixeira,53.0,191.0,Feminino,Eletrônica,Rio de Janeiro,Designer,03/01/2004,D,6409,77
+851,Maria Sophia Santos,23.0,185.0,Feminino,Rock,Belo Horizonte,Engenheiro,18/01/1972,C,6770,86
+852,Isabella Silva,39.0,197.0,Masculino,Hip-hop,São Paulo,Advogado,30/06/1954,C,5369,95
+853,Enzo Fogaça,34.0,173.0,Feminino,Pop,Porto Alegre,Engenheiro,17/06/2005,D,2880,50
+854,Srta. Maria Fernanda Peixoto,42.0,190.0,Masculino,Clássica,Porto Alegre,Designer,25/09/1990,D,5600,94
+857,Enrico Gomes,36.0,170.0,Feminino,Jazz,Curitiba,Engenheiro,05/12/1976,D,5781,112
+858,Dr. Vitor Gabriel Castro,29.0,170.0,Feminino,Rock,Belo Horizonte,Professor,17/03/1959,C,10374,91
+861,Nicole Carvalho,54.0,181.0,Feminino,Jazz,Porto Alegre,Programador,18/01/1962,D,2468,116
+863,Gustavo das Neves,45.0,184.0,Masculino,Clássica,Belo Horizonte,Professor,14/02/2001,C,9794,60
+867,Luna Nogueira,51.0,161.0,Outro,Eletrônica,São Paulo,Advogado,14/01/1961,C,11223,119
+868,Vicente Vieira,35.0,155.0,Outro,Eletrônica,Porto Alegre,Programador,23/06/1983,D,12902,113
+870,Ana Luiza Campos,29.0,165.0,Feminino,Pop,Porto Alegre,Professor,25/08/2000,F,4050,54
+871,Pedro Lucas Moreira,38.0,176.0,Outro,Eletrônica,Porto Alegre,Advogado,08/05/1985,C,12562,88
+873,Sr. Diego Duarte,20.0,164.0,Feminino,Eletrônica,Belo Horizonte,Advogado,12/03/1970,C,7270,90
+877,Maria Clara Cunha,28.0,182.0,Outro,Eletrônica,Rio de Janeiro,Engenheiro,21/12/1976,D,5074,80
+879,Paulo da Luz,45.0,156.0,Feminino,Eletrônica,Rio de Janeiro,Professor,29/01/1984,E,4834,98
+882,Maria Fernanda da Conceição,19.0,165.0,Feminino,Clássica,Belo Horizonte,Programador,18/09/1959,C,10532,67
+884,Raquel Rodrigues,37.0,175.0,Outro,Rock,Belo Horizonte,Advogado,24/06/1992,C,9208,63
+886,Nicolas Dias,67.0,156.0,Masculino,Rock,São Paulo,Advogado,31/10/1965,C,11654,105
+887,Larissa Pinto,63.0,176.0,Outro,Clássica,Rio de Janeiro,Engenheiro,06/09/2001,E,6360,50
+888,Luigi Correia,53.0,181.0,Feminino,Jazz,Belo Horizonte,Programador,22/06/1988,D,4434,100
+893,Dr. Rafael Caldeira,53.0,177.0,Masculino,Clássica,Belo Horizonte,Engenheiro,12/05/1984,E,12524,92
+897,Enzo Gabriel Monteiro,59.0,150.0,Outro,Hip-hop,Rio de Janeiro,Engenheiro,29/08/1986,E,13537,85
+898,Agatha Campos,66.0,195.0,Outro,Pop,Curitiba,Advogado,25/12/1995,E,8490,117
+899,Ana Vitória Fogaça,68.0,173.0,Outro,Rock,Belo Horizonte,Designer,15/11/1955,D,14833,66
+902,Emilly Gomes,28.0,161.0,Feminino,Pop,Porto Alegre,Médico,21/12/1986,C,2686,87
+905,João Miguel Oliveira,27.0,174.0,Masculino,Clássica,Belo Horizonte,Médico,13/05/1956,C,6366,58
+906,Thiago Rocha,19.0,192.0,Feminino,Hip-hop,Rio de Janeiro,Programador,28/05/1974,E,3879,78
+907,Lavínia Rodrigues,54.0,181.0,Feminino,Hip-hop,Belo Horizonte,Programador,01/04/1987,E,14826,72
+908,Anthony Moraes,37.0,181.0,Feminino,Clássica,Curitiba,Médico,20/05/2006,D,3408,119
+911,Isaac Viana,54.0,179.0,Feminino,Clássica,Rio de Janeiro,Engenheiro,15/11/2000,C,13976,76
+912,Ana Julia Fernandes,33.0,181.0,Outro,Hip-hop,Curitiba,Médico,03/03/1970,E,14020,91
+915,Isis Ribeiro,38.0,188.0,Feminino,Pop,Curitiba,Médico,30/08/2003,E,4585,54
+921,Maria Sophia Silveira,39.0,157.0,Outro,Rock,São Paulo,Engenheiro,10/12/1984,E,7654,112
+924,Caio Moraes,27.0,177.0,Feminino,Eletrônica,Belo Horizonte,Médico,11/02/1990,F,2529,79
+927,Ana Sophia Pires,56.0,191.0,Masculino,Jazz,São Paulo,Programador,13/04/1994,E,7314,74
+928,Maria Luiza Aragão,62.0,197.0,Outro,Hip-hop,São Paulo,Professor,10/12/1978,C,9537,111
+929,Julia Barros,52.0,159.0,Feminino,Jazz,Porto Alegre,Programador,05/09/1996,C,14653,115
+930,Thales Nascimento,34.0,162.0,Masculino,Hip-hop,Rio de Janeiro,Programador,29/08/2005,C,8225,84
+931,Dr. Carlos Eduardo Aragão,31.0,158.0,Feminino,Clássica,Curitiba,Engenheiro,25/05/1966,D,6452,92
+932,Yuri Nunes,28.0,159.0,Feminino,Hip-hop,Curitiba,Engenheiro,31/01/1967,D,4108,52
+933,Julia Moreira,34.0,181.0,Masculino,Eletrônica,São Paulo,Médico,14/08/1990,C,10130,109
+934,Evelyn Teixeira,37.0,162.0,Feminino,Rock,Rio de Janeiro,Programador,26/05/1968,C,14864,93
+935,Rodrigo Vieira,48.0,193.0,Feminino,Pop,Curitiba,Designer,19/10/1970,C,7325,94
+936,Eloah Teixeira,38.0,154.0,Outro,Rock,São Paulo,Designer,28/05/1962,E,13215,73
+939,Carlos Eduardo Silva,32.0,199.0,Masculino,Jazz,Belo Horizonte,Professor,15/09/1970,E,12469,53
+940,Maria Luiza Barbosa,27.0,170.0,Feminino,Pop,Rio de Janeiro,Professor,03/10/1953,E,11863,82
+941,Sra. Heloísa Castro,68.0,170.0,Outro,Eletrônica,Porto Alegre,Programador,22/12/1957,D,6948,88
+942,Esther Cunha,47.0,169.0,Outro,Jazz,Belo Horizonte,Professor,06/07/1956,C,14064,60
+943,Benício da Mata,49.0,151.0,Feminino,Eletrônica,Rio de Janeiro,Engenheiro,10/05/1987,E,14430,52
+947,Yago Moreira,53.0,156.0,Outro,Eletrônica,Porto Alegre,Designer,13/10/1958,E,10006,63
+950,Maria Eduarda Martins,40.0,160.0,Masculino,Pop,Curitiba,Engenheiro,02/06/1986,E,6994,113
+951,Carolina da Mata,29.0,162.0,Masculino,Pop,Porto Alegre,Engenheiro,18/06/1969,E,12586,101
+953,Bruno da Paz,20.0,181.0,Outro,Pop,Porto Alegre,Programador,16/03/1974,D,11638,81
+954,Sr. Vitor Caldeira,19.0,166.0,Outro,Pop,Porto Alegre,Engenheiro,08/04/1977,C,12853,66
+955,Heitor Cardoso,62.0,174.0,Masculino,Jazz,Belo Horizonte,Designer,11/05/1963,D,13768,80
+957,Maria Luiza Barros,18.0,167.0,Feminino,Jazz,Curitiba,Programador,27/06/1969,D,8301,117
+959,Vicente Cardoso,56.0,151.0,Outro,Clássica,Porto Alegre,Designer,31/05/1967,C,4041,114
+960,Srta. Ana Laura Azevedo,46.0,179.0,Masculino,Rock,Curitiba,Professor,18/04/2004,C,12036,87
+961,Ana Dias,56.0,157.0,Masculino,Jazz,São Paulo,Professor,16/07/2002,C,4111,116
+962,Catarina da Conceição,19.0,159.0,Outro,Hip-hop,Porto Alegre,Advogado,04/09/1974,E,6741,76
+966,Sra. Isadora Moraes,61.0,168.0,Feminino,Jazz,Curitiba,Engenheiro,18/10/1978,F,12607,58
+967,Danilo Cunha,42.0,194.0,Masculino,Pop,Curitiba,Advogado,08/07/1954,C,3510,86
+968,Letícia Peixoto,65.0,169.0,Feminino,Rock,Rio de Janeiro,Programador,07/08/1972,E,10085,57
+970,Caroline Rodrigues,63.0,195.0,Outro,Hip-hop,Curitiba,Designer,13/04/1978,C,9484,119
+971,Julia Moraes,24.0,186.0,Feminino,Hip-hop,Belo Horizonte,Advogado,19/11/1997,D,3059,51
+972,Srta. Maria Luiza Rocha,68.0,194.0,Masculino,Jazz,Belo Horizonte,Médico,21/06/1974,E,3211,95
+973,Gabriela Castro,24.0,176.0,Outro,Jazz,São Paulo,Médico,17/05/1985,C,10631,73
+975,Bryan Gomes,35.0,199.0,Outro,Clássica,Rio de Janeiro,Médico,18/04/1975,D,10499,58
+977,Ana Lívia Ribeiro,53.0,176.0,Masculino,Clássica,São Paulo,Advogado,05/05/1995,D,8213,74
+978,Lucca Monteiro,31.0,198.0,Feminino,Rock,Rio de Janeiro,Professor,24/11/2002,E,14655,113
+981,Dr. Fernando Barbosa,62.0,176.0,Outro,Clássica,Rio de Janeiro,Engenheiro,07/09/1961,C,5550,66
+983,Francisco Cardoso,62.0,183.0,Masculino,Jazz,Belo Horizonte,Designer,16/05/1974,D,6846,89
+985,Marcelo Lima,42.0,159.0,Masculino,Hip-hop,Porto Alegre,Advogado,02/02/1986,E,10756,91
+986,João Vitor da Rocha,42.0,199.0,Outro,Eletrônica,Belo Horizonte,Programador,29/09/1990,E,14717,60
+988,Nathan da Rosa,56.0,170.0,Feminino,Hip-hop,Belo Horizonte,Advogado,30/09/1956,D,13968,81
+989,Gustavo Rocha,42.0,154.0,Outro,Rock,Belo Horizonte,Advogado,16/02/1968,C,7147,65
+990,Otávio Dias,45.0,184.0,Masculino,Rock,Porto Alegre,Advogado,10/10/1957,D,14906,115
+992,Ana Luiza Moraes,29.0,167.0,Feminino,Hip-hop,Curitiba,Médico,10/09/1985,E,13574,112
+993,Ian Almeida,36.0,198.0,Masculino,Hip-hop,Curitiba,Engenheiro,10/02/2002,E,9415,99
+995,Theo Sales,42.0,179.0,Masculino,Rock,Rio de Janeiro,Designer,11/08/1992,C,7794,59
+996,Pietra Freitas,42.0,169.0,Masculino,Hip-hop,São Paulo,Médico,28/06/1983,C,13456,53
+997,Brenda Aragão,65.0,179.0,Masculino,Hip-hop,Belo Horizonte,Advogado,14/03/1975,D,7411,85
+999,Sophie Araújo,37.0,177.0,Outro,Rock,Rio de Janeiro,Advogado,16/04/1996,F,4804,64
