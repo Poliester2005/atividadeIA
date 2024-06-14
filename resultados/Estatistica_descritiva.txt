@@ -1,0 +1,80 @@
+----------------Idade Atual-----------------
+contagem         514.000000
+média              0.497680
+desvio padrão      0.297397
+mínimo             0.000000
+1º quartil         0.235577
+mediana            0.480769
+3º quartil         0.750000
+máximo             1.000000
+Name: idade_atual, dtype: float64
+Moda idade_atual: 0.3653846153846154
+Mediana idade_atual: 0.4807692307692308
+----------------Altura-----------------
+contagem         514.000000
+média              0.505201
+desvio padrão      0.275405
+mínimo             0.000000
+1º quartil         0.265306
+mediana            0.551020
+3º quartil         0.693878
+máximo             1.000000
+Name: altura_cm, dtype: float64
+Moda Altura: 0.6326530612244898
+Mediana Altura: 0.5510204081632653
+----------------Salário-----------------
+contagem         514.000000
+média              0.494092
+desvio padrão      0.286340
+mínimo             0.000000
+1º quartil         0.258024
+mediana            0.493828
+3º quartil         0.731483
+máximo             1.000000
+Name: salario, dtype: float64
+Moda Salário: 0.1341717460072525
+Mediana Salário: 0.49382763675642316
+----------------Peso-----------------
+contagem         514.000000
+média              0.498336
+desvio padrão      0.295447
+mínimo             0.000000
+1º quartil         0.231884
+mediana            0.507246
+3º quartil         0.724638
+máximo             1.000000
+Name: peso, dtype: float64
+Moda Peso: 0.7101449275362318
+Mediana Peso: 0.5072463768115941
+----------------Gênero Musical-----------------
+Distribuição de Frequência para as Colunas de Gênero Musical:
+genero_musical_favorito_Clássica      0.169261
+genero_musical_favorito_Eletrônica    0.177043
+genero_musical_favorito_Hip-hop       0.173152
+genero_musical_favorito_Jazz          0.163424
+genero_musical_favorito_Pop           0.165370
+genero_musical_favorito_Rock          0.151751
+dtype: float64
+----------------Sexo-----------------
+Distribuição de Frequência para as Colunas de Sexo:
+sexo_Feminino     0.363813
+sexo_Masculino    0.284047
+sexo_Outro        0.352140
+dtype: float64
+----------------Cidade-----------------
+Distribuição de Frequência para as Colunas de Cidade:
+cidade_Belo Horizonte    0.233463
+cidade_Curitiba          0.180934
+cidade_Porto Alegre      0.208171
+cidade_Rio de Janeiro    0.180934
+cidade_São Paulo         0.196498
+dtype: float64
+----------------Profissão-----------------
+Distribuição de Frequência para as Colunas de Profissão:
+profissao_Advogado       0.171206
+profissao_Designer       0.157588
+profissao_Engenheiro     0.159533
+profissao_Médico         0.169261
+profissao_Professor      0.173152
+profissao_Programador    0.169261
+dtype: float64

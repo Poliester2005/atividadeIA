@@ -1,11 +1,15 @@
+from datetime import datetime
 import pandas as pd
 import os
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import OneHotEncoder
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
-
+scaler = MinMaxScaler()
+encoder = OneHotEncoder(sparse_output=False)
 
 def escolher_letra(x):
     # Dicionário de mapeamento de números para letras
@@ -49,7 +53,7 @@ df = pd.read_csv('datasets/clientes.csv')
 os.makedirs('datasets/processados', exist_ok=True)
 
 # Calculando a média das colunas selecionadas
-colunas_para_media = ['altura_cm', 'idade', 'salario', 'peso']
+colunas_para_media = ['altura_cm', 'salario', 'peso']
 media = round(df[colunas_para_media].mean(), 0)
 
 df.isnull().sum()
@@ -67,17 +71,36 @@ df.dropna(subset=['genero_musical_favorito', 'cidade', 'profissao', 'data_de_nas
 # Removendo duplicatas, mantendo a primeira ocorrência e considerando a coluna 'nome'
 df = df.drop_duplicates(subset=['nome'], keep='first')
 
+df.drop(columns=['idade'], inplace=True)
+
 # Filtrando os dados conforme as condições especificadas
-df_filtrado = df[
-    (df['idade'] >= 18) & (df['idade'] <= 70) & 
-    (df['altura_cm'] >= 120) & (df['altura_cm'] <= 210) & 
-    (df['sexo'].isin(['Masculino', 'Feminino', 'Outro']))
-]
+df_filtrado = df
 
 df_filtrado['data_de_nascimento'] = df_filtrado['data_de_nascimento'].apply(converter_data_para_padrao)
 
 # Substituir os números por letras na coluna 'coluna1' e escolher aleatoriamente uma letra correspondente
 df_filtrado['score_bom_pagador'] = df_filtrado['score_bom_pagador'].apply(escolher_letra)
+
+df_filtrado['data_de_nascimento'] = pd.to_datetime(df_filtrado['data_de_nascimento'], format='%d/%m/%Y')
+
+current_date = pd.Timestamp.now()
+
+df_filtrado['idade_atual'] = ((current_date - df_filtrado['data_de_nascimento']).dt.days / 365.25).astype(int)
+
+df_filtrado = df_filtrado[
+    (df['idade_atual'] >= 18) & (df['idade_atual'] <= 70) & 
+    (df['altura_cm'] >= 120) & (df['altura_cm'] <= 210) & 
+    (df['sexo'].isin(['Masculino', 'Feminino', 'Outro']))
+]
+
+# One-hot encode categorical columns
+df_filtrado = pd.get_dummies(df_filtrado, columns=['sexo', 'genero_musical_favorito', 'cidade', 'profissao'], dtype=int)
+
+# Limpeza do Dataset- Parte 4
+colunas_numericas = ['idade_atual', 'altura_cm', 'salario', 'peso']
+df_filtrado[colunas_numericas] = scaler.fit_transform(df_filtrado[colunas_numericas])
+
+# Limpeza do Dataset- Parte 5
 
 df_filtrado.to_csv('datasets/processados/clientes_filtrados.csv', index=False)
 

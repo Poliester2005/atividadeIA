@@ -4,30 +4,17 @@
 
 ## Introdução
 
-Para a realização de aprenizagem de máquina, é necessário de uma base de dados com dados mais claros possivel de acordo com o objetivo a ser alcançado para sua máquina ter maior porcentagem de acerto ao realizar a tarefa atribuída.
-
-## Importando a Base
-
-Ao pegar a base de dados atribuída a nossa equipe, utilizamos a biblioteca <a href="https://pandas.pydata.org/">Pandas</a> presente no Pacote de Bibloteca do <a href="https://python.org/">Python</a> para visualizar como a base se encontrava antes de fazer toda a parte de Pré Processamento dos Dados, utilizando o código abaixo:
-
-```python
-import pandas as pd
-df = pd.read_csv('datasets/clientes.csv')
-
-# Mudando a quantidade do máximos de linhas, colunas e tamanhos da base para ser mostrada.
-
-pd.set_option('display.max_rows', None)
-pd.set_option('display.max_columns', None)
-pd.set_option('display.width', None)
-
-print(df) # Mostrando a base
-```
+Para a realização de aprenizagem de máquina, é necessário de uma base de dados com dados mais claros possivel de acordo com o objetivo a ser alcançado para sua máquina ter maior porcentagem de acerto ao realizar a tarefa atribuídos.
 
 E o resultado obtido foi:
 
 
 
 Com o resultado acima, concluímos que a base se encontrava ireegular para prosseguir, com diversos registros com valores ausentes, dados redundantes com duplicatas e dados incosistentes como idade negativa. Com isso, decidimos fazer toda a limpeza da base de dados utilizando métodos de limpeza dos dados.
+
+## Relatório
+O relatório de toda a realização dessa atividade se encontra no link ao lado: 
+<a href="relatorio.ipynb">Clique Aqui</a>.
 
 ## Limpeza dos Dados
 
