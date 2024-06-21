@@ -1,11 +1,12 @@
 import pandas as pd 
 import os
 
-df = pd.read_csv('datasets/processados/clientes_filtrados.csv')
+df2 = pd.read_csv('datasets/processados/clientes_filtrados.csv')
+df = pd.read_csv('datasets/clientes.csv')
 
 with open('resultados/Estatistica_descritiva.txt', 'w', encoding='utf-8') as f:
     f.write('----------------Idade Atual-----------------\n')
-    describe_idade_atual = df['idade_atual'].describe().rename({
+    describe_idade = df2['idade'].describe().rename({
         'count': 'contagem',
         'mean': 'média',
         'std': 'desvio padrão',
@@ -15,16 +16,16 @@ with open('resultados/Estatistica_descritiva.txt', 'w', encoding='utf-8') as f:
         '75%': '3º quartil',
         'max': 'máximo'
     })
-    f.write(str(describe_idade_atual) + '\n')
+    f.write(str(describe_idade) + '\n')
 
-    mode_idade_atual = df['idade_atual'].mode()[0]
-    f.write("Moda idade_atual: " + str(mode_idade_atual) + '\n')
+    mode_idade = df2['idade'].mode()[0]
+    f.write("Moda idade: " + str(mode_idade) + '\n')
 
-    median_idade_atual = df['idade_atual'].median()
-    f.write("Mediana idade_atual: " + str(median_idade_atual) + '\n')
+    median_idade = df2['idade'].median()
+    f.write("Mediana idade: " + str(median_idade) + '\n')
 
     f.write('----------------Altura-----------------\n')
-    describe_altura = df['altura_cm'].describe().rename({
+    describe_altura = df2['altura_cm'].describe().rename({
         'count': 'contagem',
         'mean': 'média',
         'std': 'desvio padrão',
@@ -36,14 +37,14 @@ with open('resultados/Estatistica_descritiva.txt', 'w', encoding='utf-8') as f:
     })
     f.write(str(describe_altura) + '\n')
 
-    mode_altura = df['altura_cm'].mode()[0]
+    mode_altura = df2['altura_cm'].mode()[0]
     f.write("Moda Altura: " + str(mode_altura) + '\n')
 
-    median_altura = df['altura_cm'].median()
+    median_altura = df2['altura_cm'].median()
     f.write("Mediana Altura: " + str(median_altura) + '\n')
 
     f.write('----------------Salário-----------------\n')
-    describe_salario = df['salario'].describe().rename({
+    describe_salario = df2['salario'].describe().rename({
         'count': 'contagem',
         'mean': 'média',
         'std': 'desvio padrão',
@@ -55,14 +56,14 @@ with open('resultados/Estatistica_descritiva.txt', 'w', encoding='utf-8') as f:
     })
     f.write(str(describe_salario) + '\n')
 
-    mode_salario = df['salario'].mode()[0]
+    mode_salario = df2['salario'].mode()[0]
     f.write("Moda Salário: " + str(mode_salario) + '\n')
 
-    median_salario = df['salario'].median()
+    median_salario = df2['salario'].median()
     f.write("Mediana Salário: " + str(median_salario) + '\n')
 
     f.write('----------------Peso-----------------\n')
-    describe_peso = df['peso'].describe().rename({
+    describe_peso = df2['peso'].describe().rename({
         'count': 'contagem',
         'mean': 'média',
         'std': 'desvio padrão',
@@ -74,10 +75,10 @@ with open('resultados/Estatistica_descritiva.txt', 'w', encoding='utf-8') as f:
     })
     f.write(str(describe_peso) + '\n')
 
-    mode_peso = df['peso'].mode()[0]
+    mode_peso = df2['peso'].mode()[0]
     f.write("Moda Peso: " + str(mode_peso) + '\n')
 
-    median_peso = df['peso'].median()
+    median_peso = df2['peso'].median()
     f.write("Mediana Peso: " + str(median_peso) + '\n')
 
     f.write('----------------Gênero Musical-----------------\n')

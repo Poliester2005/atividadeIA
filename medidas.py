@@ -1,7 +1,7 @@
 import pandas as pd 
 import os
 
-df = pd.read_csv('datasets/processados/clientes_filtrados.csv')
+df = pd.read_csv('datasets/clientes.csv')
 
 with open('resultados/Medidas_Dispersao.txt', 'w', encoding='utf-8') as f:
     f.write('----------------Salário-----------------\n')
@@ -20,17 +20,17 @@ with open('resultados/Medidas_Dispersao.txt', 'w', encoding='utf-8') as f:
 
     f.write('----------------Idade Atual-----------------\n')
     # Amplitude
-    amplitude_idade_atual = df['idade_atual'].max() - df['idade_atual'].min()
+    amplitude_idade = df['idade'].max() - df['idade'].min()
 
     # Variância
-    variancia_idade_atual = df['idade_atual'].var()
+    variancia_idade = df['idade'].var()
 
     # Desvio Padrão
-    desvio_padrao_idade_atual = df['idade_atual'].std()
+    desvio_padrao_idade = df['idade'].std()
 
-    f.write("Amplitude: {}\n".format(amplitude_idade_atual))
-    f.write("Variância: {}\n".format(variancia_idade_atual))
-    f.write("Desvio Padrão: {}\n".format(desvio_padrao_idade_atual))
+    f.write("Amplitude: {}\n".format(amplitude_idade))
+    f.write("Variância: {}\n".format(variancia_idade))
+    f.write("Desvio Padrão: {}\n".format(desvio_padrao_idade))
 
     f.write('----------------Peso-----------------\n')
     # Amplitude

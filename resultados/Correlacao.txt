@@ -5,4 +5,5 @@ altura_cm       0.007359   1.000000 -0.041547 -0.079236
 salario         0.044287  -0.041547  1.000000  0.011311
 peso            0.066388  -0.079236  0.011311  1.000000
 
-----------------Fortes Correlações-----------------
+----------------Análise de Correlação Forte-----------------
+Nenhum par de atributos com correlação forte encontrada.

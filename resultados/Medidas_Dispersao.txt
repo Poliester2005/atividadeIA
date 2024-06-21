@@ -1,16 +1,16 @@
 ----------------Salário-----------------
-Amplitude: 1.0
-Variância: 0.08199041885174699
-Desvio Padrão: 0.28633969136629833
+Amplitude: 12985
+Variância: 13608821.858094094
+Desvio Padrão: 3689.0136700877233
 ----------------Idade Atual-----------------
-Amplitude: 1.0
-Variância: 0.08844490106403496
-Desvio Padrão: 0.29739687467092685
+Amplitude: 70.0
+Variância: 324.24806629834256
+Desvio Padrão: 18.00688941206511
 ----------------Peso-----------------
-Amplitude: 1.0
-Variância: 0.08199041885174699
-Desvio Padrão: 0.28633969136629833
+Amplitude: 12985
+Variância: 13608821.858094094
+Desvio Padrão: 3689.0136700877233
 ----------------Altura-----------------
-Amplitude: 0.9999999999999996
-Variância: 0.07584811789797372
-Desvio Padrão: 0.2754053701327803
+Amplitude: 150.0
+Variância: 1020.470370997881
+Desvio Padrão: 31.944801940188658
