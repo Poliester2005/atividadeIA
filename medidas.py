@@ -1,61 +1,39 @@
-import pandas as pd 
-import os
+import pandas as pd
 
-df = pd.read_csv('datasets/clientes.csv')
+# Carregando os dados do arquivo CSV
+try:
+    df = pd.read_csv('datasets/clientes.csv')
+except FileNotFoundError:
+    print("Arquivo clientes.csv não encontrado. Verifique o caminho do arquivo.")
 
-with open('resultados/Medidas_Dispersao.txt', 'w', encoding='utf-8') as f:
-    f.write('----------------Salário-----------------\n')
-    # Amplitude
-    amplitude_salario = df['salario'].max() - df['salario'].min()
+colunas_numericas = ['idade', 'altura_cm', 'salario', 'peso']
 
-    # Variância
-    variancia_salario = df['salario'].var()
+colunas_presentes = [col for col in colunas_numericas if col in df.columns]
 
-    # Desvio Padrão
-    desvio_padrao_salario = df['salario'].std()
+if len(colunas_presentes) != len(colunas_numericas):
+    print("Algumas colunas numéricas especificadas não foram encontradas no DataFrame.")
 
-    f.write("Amplitude: {}\n".format(amplitude_salario))
-    f.write("Variância: {}\n".format(variancia_salario))
-    f.write("Desvio Padrão: {}\n".format(desvio_padrao_salario))
+analise_correlacao = df[colunas_numericas].corr()
 
-    f.write('----------------Idade Atual-----------------\n')
-    # Amplitude
-    amplitude_idade = df['idade'].max() - df['idade'].min()
+limiar_correlacao_forte = 0.7
 
-    # Variância
-    variancia_idade = df['idade'].var()
+pares_correlacao_forte = []
 
-    # Desvio Padrão
-    desvio_padrao_idade = df['idade'].std()
+for i in range(len(colunas_numericas)):
+    for j in range(i + 1, len(colunas_numericas)):
+        if abs(analise_correlacao.iloc[i, j]) >= limiar_correlacao_forte:
+            par = (colunas_numericas[i], colunas_numericas[j], analise_correlacao.iloc[i, j])
+            pares_correlacao_forte.append(par)
 
-    f.write("Amplitude: {}\n".format(amplitude_idade))
-    f.write("Variância: {}\n".format(variancia_idade))
-    f.write("Desvio Padrão: {}\n".format(desvio_padrao_idade))
+with open('resultados/Correlacao.txt', 'w', encoding='utf-8') as f:
+    f.write('----------------Análise de Correlação-----------------\n')
+    f.write(str(analise_correlacao) + '\n\n')
 
-    f.write('----------------Peso-----------------\n')
-    # Amplitude
-    amplitude_peso = df['peso'].max() - df['peso'].min()
+    f.write('----------------Análise de Correlação Forte-----------------\n')
+    if pares_correlacao_forte:
+        for par in pares_correlacao_forte:
+            f.write(f'{par[0]} e {par[1]}: {par[2]}\n')
+    else:
+        f.write('Nenhum par de atributos com correlação forte encontrada.\n')
 
-    # Variância
-    variancia_peso = df['peso'].var()
-
-    # Desvio Padrão
-    desvio_padrao_peso = df['peso'].std()
-
-    f.write("Amplitude: {}\n".format(amplitude_salario))
-    f.write("Variância: {}\n".format(variancia_salario))
-    f.write("Desvio Padrão: {}\n".format(desvio_padrao_salario))
-    
-    f.write('----------------Altura-----------------\n')
-    # Amplitude
-    amplitude_altura_cm = df['altura_cm'].max() - df['altura_cm'].min()
-
-    # Variância
-    variancia_altura_cm = df['altura_cm'].var()
-
-    # Desvio Padrão
-    desvio_padrao_altura_cm = df['altura_cm'].std()
-
-    f.write("Amplitude: {}\n".format(amplitude_altura_cm))
-    f.write("Variância: {}\n".format(variancia_altura_cm))
-    f.write("Desvio Padrão: {}\n".format(desvio_padrao_altura_cm))
+print("Análise de correlação concluída e resultados salvos em resultados/Correlacao.txt.")

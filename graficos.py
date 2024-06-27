@@ -44,8 +44,4 @@ def boxplot():
     plt.tight_layout()
     plt.show()
 
-# REPRESENTAÇÃO GRÁFICA ---- GRÁFICOS DE DISPERSÃO
-
-# REPRESENTAÇÃO GRÁFICA ---- MAPA DE CALOR
-
 boxplot()

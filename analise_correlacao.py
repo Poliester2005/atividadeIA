@@ -2,26 +2,21 @@ import pandas as pd
 
 # Carregando os dados do arquivo CSV
 try:
-        df = pd.read_csv('datasets/processados/clientes_filtrados.csv')
+    df = pd.read_csv('datasets/clientes.csv')
 except FileNotFoundError:
-    print("Arquivo clientes_filtrados.csv não encontrado. Verifique o caminho do arquivo.")
+    print("Arquivo clientes.csv não encontrado. Verifique o caminho do arquivo.")
 
-# Colunas numéricas para análise de correlação
-colunas_numericas = ['idade_atual', 'altura_cm', 'salario', 'peso']
+colunas_numericas = ['idade', 'altura_cm', 'salario', 'peso']
 
-# Verificar se as colunas numéricas estão presentes no DataFrame
 colunas_presentes = [col for col in colunas_numericas if col in df.columns]
 
 if len(colunas_presentes) != len(colunas_numericas):
     print("Algumas colunas numéricas especificadas não foram encontradas no DataFrame.")
 
-# Calculando a matriz de correlação
 analise_correlacao = df[colunas_numericas].corr()
 
-# Definindo o limiar de correlação forte
 limiar_correlacao_forte = 0.7
 
-# Identificando pares com correlação forte
 pares_correlacao_forte = []
 
 for i in range(len(colunas_numericas)):
@@ -30,7 +25,6 @@ for i in range(len(colunas_numericas)):
             par = (colunas_numericas[i], colunas_numericas[j], analise_correlacao.iloc[i, j])
             pares_correlacao_forte.append(par)
 
-# Salvando os resultados em um arquivo de texto
 with open('resultados/Correlacao.txt', 'w', encoding='utf-8') as f:
     f.write('----------------Análise de Correlação-----------------\n')
     f.write(str(analise_correlacao) + '\n\n')
